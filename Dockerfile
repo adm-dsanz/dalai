@@ -23,7 +23,7 @@ RUN apt-get update \
     && apt-get install -y sudo
 
 WORKDIR /root/dalai
-RUN npm install -g npm@9.6.2
+RUN npm install -g npm@latest
 # Install dalai and its dependencies
 RUN npm install dalai@0.3.1
 
